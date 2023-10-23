@@ -1,0 +1,7 @@
+id,nombre,apellido,fecha_de_nacimiento,numero_de_legajo,email,telefono,direccion,pais
+1,Marcos,Pérez,,1234,marcos@mail.com,1234567,"Calle 123, Mendoza",Argenina
+2,Gabriel,Gómez,,2345,gabriel@mail.com,2345678,"Calle 3, Mendoza",Argentina
+3,Pedro,Almodovar,,3456,pedro@mail.com,4567890,"Calle XX, Previncia yy",Mexico
+4,Nati,Cortese,,4567,nati@mail.com,3456789,"Calle XX, Previncia yy",Peru
+5,Lucas,Herrera,,5678,lucas@mail.com,9876543,"Calle XX, Previncia yy",Peru
+6,Marcela,Ramirez,,6789,marce@mail.com,8765432,"Calle XX, Previncia yy",Uruguay

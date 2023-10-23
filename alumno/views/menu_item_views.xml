@@ -1,0 +1,18 @@
+<odoo>
+    <!--  TODO agregar Grupo de administrador groups="group_stock_manager,group_stock_user"-->
+    <data>
+        <!--        Menu Principal      -->
+        <menuitem name="Alumno" id="guilleApp_menu_root" groups="base.group_user" action="escuela_alumno_action"/>
+        <!--        Menu item Alumno      -->
+        <menuitem id="alumno_menu_categ" name="Alumnos" parent="guilleApp_menu_root" sequence="1" action="escuela_alumno_action"/>
+            <!-- <menuitem id="escuela_alumno_menu_act" name="Lista de Alumnos" parent="alumno_menu_categ" action="escuela_alumno_action" sequence="1"/> -->
+        <!--        Menu item Programa escuela_programa_view -->
+        <menuitem id="programa_menu_categ" name="Programa" parent="guilleApp_menu_root" sequence="2" action="escuela_programa_action"/>
+        <!-- <menuitem id="escuela_programa_menu_act" name="Lista de Programas" parent="programa_menu_categ" action="escuela_programa_action" sequence="1"/>
+             <menuitem id="escuela_programa_create_act" name="Nuevo Programa" parent="programa_menu_categ" action="escuela_programa_action" sequence="2"/> -->
+        <!--        Menu item Inscripciones -->
+        <menuitem id="incripcion_menu_categ" name="Inscripciones" parent="guilleApp_menu_root" sequence="3" action="escuela_inscripcion_action"/>
+        <!-- <menuitem id="escuela_inscripcion_menu_act" name="Listado de Inscripciones" parent="incripcion_menu_categ" action="escuela_inscripcion_action" sequence="1"/>
+             <menuitem id="escuela_inscripcion_create_act" name="Síntomas" parent="incripcion_menu_categ" action="body_illness_action" sequence="2"/> -->
+    </data>
+</odoo>

@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <record id="escuela_inscripcion_tree_view" model="ir.ui.view">
+            <field name="name">escuela.inscripcion.tree</field>
+            <field name="model">escuela.inscripcion</field>
+            <field name="arch" type="xml">
+                <tree string="Inscripciones" editable="bottom">
+                    <field name="numero_de_tramite" />
+                    <field name="alumno_id"/>
+                    <field name="programa_id"/>
+                </tree>
+            </field>
+        </record>
+        <record id="escuela_inscripcion_action" model="ir.actions.act_window">
+            <field name="name">inscripciones</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">escuela.inscripcion</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Aún no hay Inscripciones creadas.
+                </p>
+                <p>
+                    Deben generarse nuevas inscripciones de alumnos a programas.
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>
